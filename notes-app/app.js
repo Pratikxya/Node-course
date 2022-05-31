@@ -1,6 +1,6 @@
-const name = require("./utils.js");
+const add = require("./utils.js");
 
-console.log(`Hello ${name}`);
+console.log(`Its working! ${add(4, -5)}`);
 
 // const fs = require("fs");
 
