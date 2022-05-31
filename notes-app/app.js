@@ -1,5 +1,9 @@
-const fs = require("fs");
+const name = require("./utils.js");
 
-fs.writeFileSync("notes.txt", "My name is Pratikshya.");
+console.log(`Hello ${name}`);
 
-fs.appendFileSync("notes.txt", " I am a learner.");
+// const fs = require("fs");
+
+// fs.writeFileSync("notes.txt", "My name is Pratikshya.");
+
+// fs.appendFileSync("notes.txt", " I am a learner.");
